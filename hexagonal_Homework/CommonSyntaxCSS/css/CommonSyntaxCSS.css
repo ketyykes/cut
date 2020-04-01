@@ -1,0 +1,28 @@
+h1{color: blue;}
+h2{
+    border-left: 2px solid #F00;
+    border-bottom: 2px solid #F00;
+}
+img{
+    border: 2px solid #aaa;
+
+}
+img:hover{
+    border: 2px solid #F99;
+ 
+}
+a{
+    color: #F00;
+    text-decoration:underline;
+   
+}
+a:hover{
+    color: #00f;
+    text-decoration:underline;
+}
+ul>li:nth-child(5){
+    text-decoration: line-through;
+}
+p{
+    text-indent: 2em;
+}

@@ -1,0 +1,62 @@
+.card{
+    border: 1px solid #000;
+    width: 960px;
+    height: 540px;
+    border-radius: 20px;
+    position: fixed;
+    overflow: hidden;
+    margin: 100px;
+    background-color: darkgray;
+}
+#a{
+    position: absolute;
+    right: -100px;
+    top: -100px;
+}
+#b{
+    position: absolute;
+    right: -50px;
+    top: 350px;
+    z-index: 2;
+}
+#c{
+    position: absolute;
+    right: -10px;
+    top: 90px;
+}
+#a {
+    width: 300px;
+}
+#b {
+    width: 300px;
+}
+#c {
+    width: 500px;
+}
+h1{
+    position: relative;
+    font-size:60px;
+    color: rgb(1, 25, 51);
+    top: 100px;
+    left: 200px;
+}
+h2{
+    position: relative;
+    font-size: 40px;
+    top: 60px;
+    left:100px ;
+    color: rgb(0, 253, 198);
+}
+h3{
+    position: relative;
+    font-size: 22px;
+    color: rgb(0, 255, 170);
+    top: 240px;
+    left:100px ;
+}
+#logo{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 400px;
+}
